@@ -1,0 +1,70 @@
+body,
+html {
+	font-family: Microsoft YaHei;
+	height: 100%;
+	background-color: #000;
+	zoom: 1
+}
+
+body,
+button,
+dd,
+div,
+dl,
+dt,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+li,
+ol,
+p,
+td,
+textarea,
+th,
+ul {
+	padding: 0;
+	margin: 0
+}
+
+ol,
+ul {
+	list-style: none
+}
+
+a {
+	text-decoration: none
+}
+
+img {
+	vertical-align: top
+}
+
+.cl:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden
+}
+
+.cl {
+	zoom: 1
+}
+
+.fl {
+	float: left
+}
+
+.fr {
+	float: right
+}
+
+#app {
+	min-height: 100vh
+}
